@@ -19,6 +19,7 @@ Amplitude.init({
             "url": "song/good.mp3",
         }
     ],
+    "volume": 7,
     callbacks: {
 
         song_change: function () {
