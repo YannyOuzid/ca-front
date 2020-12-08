@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66a03592-dfc7-4efc-b054-f9ea7a9921d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/album/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/album/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/album/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/album/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607434335386</updated>
-      <workItem from="1607434336486" duration="6378000" />
+      <workItem from="1607434336486" duration="7088000" />
     </task>
     <servers />
   </component>

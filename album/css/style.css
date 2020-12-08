@@ -12,6 +12,10 @@
 .navbar-text:hover{
     background-color: #955CAB;
 }
+body{
+    background-color: #4545E6;
+}
+
 #main{
     align-items: center;
 }
