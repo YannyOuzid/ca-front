@@ -13,7 +13,7 @@ Amplitude.init({
             "url": "song/moon.mp3",
         },
         {
-            "name": "Goodnight ",
+            "name": "Goodnight",
             "artist": "RNLA (ft. DNAKM)",
             "album": "",
             "url": "song/good.mp3",

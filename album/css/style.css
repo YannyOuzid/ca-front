@@ -3,11 +3,27 @@
     border-radius: 50px;
 }
 
+.navbar{
+    justify-content: space-around;
+    background-color: #8A25B1;
+    border-bottom: 3px solid black;
+}
+
+.navbar-text:hover{
+    background-color: #955CAB;
+}
 
 #album_info{
     display: flex;
     align-items: center;
     padding: 50px;
+    justify-content: space-evenly;
+}
+
+#music_info{
+    border: 3px solid #837B86;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
