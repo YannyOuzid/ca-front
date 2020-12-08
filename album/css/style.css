@@ -1,0 +1,53 @@
+.btn-primary{
+    float: right;
+    border-radius: 50px;
+}
+
+
+#album_info{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.glob-player{
+    padding: 10px;
+    border-radius: 5px;
+    background: #000;
+    margin-bottom: 20px;
+}
+
+.glob-player .glob-btn{
+    text-align: center;
+}
+
+.glob-player .meta-name{
+    color:#fff;text-align: center;
+    padding:10px;
+}
+
+.data-amplitude-song-played-progress {
+    -webkit-appearance: none;-moz-appearance: none;appearance: none;
+    background-color: #ccc;width: 100%;height: 5px;display: block;border: none;
+}
+progress.amplitude-song-played-progress[value]::-webkit-progress-bar {
+    background-color: #0069d9;
+}
+progress.amplitude-song-played-progress[value]::-moz-progress-bar {
+    background-color: #0069d9;
+}
+progress.amplitude-song-played-progress[value]::-webkit-progress-value {
+    background-color: #0069d9;
+}
+
+
+#player{
+    display: flex;
+    align-items: unset;
+    justify-content: space-evenly;
+}
+
+progress{
+    width: 100%;
+}
