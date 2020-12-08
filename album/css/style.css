@@ -12,12 +12,16 @@
 .navbar-text:hover{
     background-color: #955CAB;
 }
+#main{
+    align-items: center;
+}
 
 #album_info{
     display: flex;
     align-items: center;
     padding: 50px;
     justify-content: space-evenly;
+    width: 50%;
 }
 
 #music_info{
@@ -32,6 +36,7 @@
     border-radius: 5px;
     background: #000;
     margin-bottom: 20px;
+    width: 50%;
 }
 
 .glob-player .glob-btn{
