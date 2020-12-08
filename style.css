@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    justify-content: space-around;
+    background-color: #4545E6;
+}
+
+footer{
+    background-color: #3d339b;
+}
+
+
+/* Home Page */
+
+.fullScreen1{
+    height: 100vh;
+    background-color: #4545E6;
+}
+
+.fullScreen2{
+    height: 100vh;
+    background-color: #3d339b;
+}
+
+.card{
+    border: none;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.46); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.46);
+}
+
+
+/* Album Page */
+
+.btn-primary{
+    float: right;
+    border-radius: 50px;
+}
+
+#main{
+    align-items: center;
+}
+
+#album_info{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#music_info{
+    border: 3px solid #837B86;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.glob-player{
+    padding: 10px;
+    border-radius: 5px;
+    background: #000;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.glob-player .glob-btn{
+    text-align: center;
+}
+
+.glob-player .meta-name{
+    color:#fff;text-align: center;
+    padding:10px;
+}
+
+.data-amplitude-song-played-progress {
+    -webkit-appearance: none;-moz-appearance: none;appearance: none;
+    background-color: #ccc;width: 100%;height: 5px;display: block;border: none;
+}
+progress.amplitude-song-played-progress[value]::-webkit-progress-bar {
+    background-color: #0069d9;
+}
+progress.amplitude-song-played-progress[value]::-moz-progress-bar {
+    background-color: #0069d9;
+}
+progress.amplitude-song-played-progress[value]::-webkit-progress-value {
+    background-color: #0069d9;
+}
+
+
+#player{
+    display: flex;
+    align-items: unset;
+    justify-content: space-evenly;
+}
+
+progress{
+    width: 100%;
+}

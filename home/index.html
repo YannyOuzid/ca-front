@@ -4,27 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auddio - Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <nav>
-        <li> <a href="../articles/pages/index.html">Articles</a> </li>
-        <li> <a href="../album/index.html">Album</a> </li>
-    </nav>
-    <form action="">
-        <div class="form-example">
-            <label for="name">Research </label>
-            <input type="text" name="name" id="name" required>
-        </div>
-        <input type="submit" value="Search">
+    <!-- <nav class="navbar navbar-light">
+        <span class="navbar-text"> <a href="../home/">Home</a> </span>
+        <span class="navbar-text"> <a href="../articles/">Articles</a> </span>
+    </nav> -->
 
-    </form>
-    <h1>Title</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eos, natus, sed accusamus quos quis hic iure delectus nihil tempore, aspernatur odit repudiandae aliquam distinctio molestiae possimus? Ducimus, itaque ab.</p>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../home/"><img src="../img/logo.png" style="max-width: 60px;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
+            </ul>
+            <ul class="navbar-nav mt-2 mt-lg-0" >
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="../album/">Albums</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="../articles/">Articles</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="fullScreen1"> <!-- First screen -->
+
+        <div class="row justify-content-center" style="width: 70vw; margin-left: 15vw; padding-top: 15vh;">
+            <div class="col-12 col-md-10 col-lg-8">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search a song or an artist">
+                        </div>
+                        <!--end of col-->
+                        <div class="">
+                            <button class="btn btn-lg btn-info" type="submit">Search</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="dropdown" style="width: 70vw; margin-left: 27.5vw; margin-top: 1vh;">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Genre
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Pop</button>
+                <button class="dropdown-item" type="button">Rock</button>
+                <button class="dropdown-item" type="button">Hip-Hop</button>
+            </div>
+        </div>
+
+        <!-- cards -->
+        <div class="card-deck d-flex justify-content-around" style="width: 70vw; margin-left: 15vw; margin-top: 5vh;">
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top" src="../img/Evolve.jpg" alt="Card image cap">
+            </div>
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top" src="../img/amelbent_demain.jpg" alt="Card image cap">
+            </div>
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top"  src="../img/calogero_lieberte.jpg" alt="Card image cap">
+            </div>
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top" src="../img/Nefkeu_Etoiles.jpg" alt="Card image cap">
+            </div>
+        </div>
+
+        <div class="card-deck d-flex justify-content-around" style="width: 70vw; margin-left: 15vw; margin-top: 5vh;">
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top" src="../img/Orelsan_fete.jpg" alt="Card image cap">
+            </div>
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top" src="../img/lofi.jpg" alt="Card image cap">
+            </div>
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top"  src="../img/nightvisions.jpg" alt="Card image cap">
+            </div>
+            <div class="card" style="max-width: 12vw;">
+                <img class="card-img-top" src="../img/Acdc_backinblack.jpg" alt="Card image cap">
+            </div>
+        </div>
+        
+        
+
+    </div>
+
+    <!-- Full Screen 2 -->
+    <div class="fullScreen2">
+
+        <div class="" style="width: 64vw; margin-left: 18vw; padding-top: 8vh;">
+            <h1>Featuring Albums</h1>
+            <p>Here's a list of a few albums that we selected today for your pleasure.</p>    
+        </div>
+
+        <div class="card-deck d-flex justify-content-around" style="margin-top: 10vh;">
+            <div class="card" style="max-width: 18vw;">
+                <img class="card-img-top" src="../img/Orelsan_fete.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Orelsan - La fête est finie</h5>
+                    <p class="card-text">Orelsan came back in 2017 to release his 3rd album after a few years with his duo Casseurs Flowters.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 12 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card" style="max-width: 18vw;">
+                <img class="card-img-top" src="../img/lofi.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">The American Dollar - Lofi Dimension</h5>
+                    <p class="card-text">Lofi Dimension is an album released in 2020 by American Dollars. Useful for chilling or studying.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 2 hours ago</small></p>
+                </div>
+            </div>
+            <div class="card" style="max-width: 18vw;">
+                <img class="card-img-top"  src="../img/nightvisions.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Imagine Dragons - Night Visions</h5>
+                    <p class="card-text">Imagine dragons's first album. Released in 2012 and including Radioactive, Demons and On Top of The World, it won 5 prices </p>
+                    <p class="card-text"><small class="text-muted">Last updated 4 hours ago</small></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
-<footer> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima vero esse optio eligendi! Repellat incidunt tenetur quas, quae asperiores consequatur in. Ullam cumque accusamus fugiat sunt nostrum porro odio voluptas.</footer>
+<footer style="height: 5vh;" class="d-flex justify-content-center"> Audd.io © All rights Reserved</footer>
 </html>
-
-html
